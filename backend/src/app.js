@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 // ⭐ AUTH IMPORTS ⭐
 import authRoutes from './routes/authRoutes.js';
 // ⭐ ORDERS IMPORT ⭐
-import { orderRoutes } from './routes/orderRoutes.js';  // ← AGREGAR
+import { orderRoutes } from './routes/orderRoutes.js';
 
 dotenv.config();
 
@@ -18,7 +18,9 @@ app.use(cors({ origin: '*' }));
 // ⭐ RUTAS AUTH ⭐
 app.use('/api/auth', authRoutes);
 // ⭐ RUTAS ORDERS ⭐
-app.use('/api/orders', orderRoutes);  // ← AGREGAR
+app.use('/api/orders', orderRoutes);
+import dashboardRoutes from './routes/dashboardRoutes.js';
+app.use('/api/dashboard', dashboardRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {

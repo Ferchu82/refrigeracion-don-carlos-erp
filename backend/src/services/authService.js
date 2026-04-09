@@ -1,5 +1,6 @@
+import jwt from 'jsonwebtoken';
+import bcrypt from 'bcryptjs';
 import { PrismaClient } from '@prisma/client';
-import bcrypt from 'bcrypt';
 
 const prisma = new PrismaClient();
 
@@ -40,3 +41,12 @@ export class AuthService {
 }
 
 export default new AuthService();
+
+export const getUserIdFromToken = (authHeader) => {
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+        throw new Error('Token inválido');
+    }
+    const token = authHeader.split(' ')[1];
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    return decoded.userId;
+};
