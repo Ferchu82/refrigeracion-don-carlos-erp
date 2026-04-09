@@ -32,7 +32,7 @@ export class AuthService {
     }
 
     async getUserById(id) {
-        const user = await prisma.user.findUnique({ where: { id: Number(id) } });
+        const user = await prisma.user.findUnique({ where: { id } });  // ← SIN Number()
         if (!user) throw new Error('Usuario no encontrado');
         const { password: _, ...safeUser } = user;
         return safeUser;
