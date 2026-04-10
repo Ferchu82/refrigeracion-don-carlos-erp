@@ -17,39 +17,40 @@ model User {
 
   orders Order[]
 
+  assignedOrders Order[]       @relation("AssignedOrders")
+
   @@map("users")
 }
 
 model Order {
-  id           String   @id @default(cuid())
-  orderNumber  String   @unique
-  customerName String
-  equipment    String
-  description  String?
-  status       OrderStatus @default(PENDIENTE)
-  priority     Priority   @default(NORMAL)
-  technicianId String
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
-
-  technician User @relation(fields: [technicianId], references: [id], onDelete: Cascade)
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  priority    Priority @default(NORMAL)
+  status      Status   @default(PENDIENTE)
+  assignedTo  User?    @relation("AssignedOrders", fields: [assignedToId], references: [id])
+  assignedToId String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
 
   @@map("orders")
 }
 
 enum Role {
   TECNICO
+  ADMIN  
   SUPERVISOR
-  ADMIN
-}
-
-enum OrderStatus {
-  PENDIENTE
-  EN_PROCESO
-  TERMINADA
 }
 
 enum Priority {
   NORMAL
   URGENTE
+}
+
+enum Status {
+  PENDIENTE
+  EN_PROCESO
+  TERMINADA
 }

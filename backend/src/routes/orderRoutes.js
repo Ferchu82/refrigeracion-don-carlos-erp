@@ -1,15 +1,21 @@
+// src/routes/orderRoutes.js - IMPORTS CORRECTOS
 import express from 'express';
-import { orderController } from '../controllers/orderController.js';
-import { authMiddleware } from '../middlewares/auth.js';
+import {
+    getOrdersController,
+    createOrderController,
+    assignOrderController,
+    deleteOrderController,
+    getDashboardStatsController
+} from '../controllers/orderController.js';
+import { authMiddleware } from '../middleware/authMiddleware.js';
+import { adminMiddleware } from '../middleware/adminMiddleware.js';  // ✅ NUEVO
 
 const router = express.Router();
 
-router.use(authMiddleware);
+router.get('/orders', authMiddleware, getOrdersController);
+router.post('/orders/create', authMiddleware, createOrderController);
+router.post('/orders/assign', authMiddleware, adminMiddleware, assignOrderController);
+router.delete('/orders/:id', authMiddleware, adminMiddleware, deleteOrderController);
+router.get('/dashboard/stats', authMiddleware, getDashboardStatsController);
 
-router.get('/', orderController.getOrders);
-router.get('/:id', orderController.getOrderById);
-router.post('/', orderController.createOrder);
-router.put('/:id', orderController.updateOrder);
-router.delete('/:id', orderController.deleteOrder);
-
-export { router as orderRoutes };
+export default router;

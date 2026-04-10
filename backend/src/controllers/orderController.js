@@ -1,89 +1,91 @@
-import { orderService } from '../services/orderService.js';
+// src/controllers/orderController.js - VERSIÓN LIMPIA SIN DUPLICADOS
+import {
+    getOrders,
+    createOrder,
+    assignOrder,
+    deleteOrder,
+    getDashboardStats
+} from '../services/orderService.js';
 
-export const orderController = {
-    getOrders: async (req, res) => {
-        try {
-            const orders = await orderService.getOrdersByTechnician(req.user.id);
-            res.json({
-                success: true,
-                data: orders,
-                count: orders.length
-            });
-        } catch (error) {
-            console.error('Error en getOrders:', error);
-            res.status(500).json({ success: false, message: error.message });
-        }
-    },
+export const getOrdersController = async (req, res) => {
+    try {
+        const orders = await getOrders(req.user);
+        res.json({
+            success: true,
+            data: orders
+        });
+    } catch (error) {
+        console.error('Get orders error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Error fetching orders'
+        });
+    }
+};
 
-    getOrderById: async (req, res) => {
-        try {
-            const { id } = req.params;
-            const order = await orderService.getOrderById(id, req.user.id);
+export const createOrderController = async (req, res) => {
+    try {
+        const orderData = req.body;
+        const order = await createOrder(orderData, req.user);
+        res.status(201).json({
+            success: true,
+            data: order
+        });
+    } catch (error) {
+        console.error('Create order error:', error);
+        res.status(400).json({
+            success: false,
+            message: error.message || 'Error creating order'
+        });
+    }
+};
 
-            if (!order) {
-                return res.status(404).json({
-                    success: false,
-                    message: 'Orden no encontrada o no tienes acceso'
-                });
-            }
+export const assignOrderController = async (req, res) => {
+    try {
+        const { orderId, technicianId } = req.body;
+        const result = await assignOrder(orderId, technicianId, req.user);
+        res.json({
+            success: true,
+            data: result
+        });
+    } catch (error) {
+        console.error('Assign order error:', error);
+        res.status(400).json({
+            success: false,
+            message: error.message || 'Error assigning order'
+        });
+    }
+};
 
-            res.json({ success: true, data: order });
-        } catch (error) {
-            console.error('Error en getOrderById:', error);
-            res.status(500).json({ success: false, message: error.message });
-        }
-    },
+export const deleteOrderController = async (req, res) => {
+    try {
+        const { id } = req.params;
+        await deleteOrder(id, req.user);
+        res.json({
+            success: true,
+            message: 'Order deleted successfully'
+        });
+    } catch (error) {
+        console.error('Delete order error:', error);
+        res.status(400).json({
+            success: false,
+            message: error.message || 'Error deleting order'
+        });
+    }
+};
 
-    createOrder: async (req, res) => {
-        try {
-            const orderData = {
-                ...req.body,
-                technicianId: req.user.id
-            };
-
-            const order = await orderService.createOrder(orderData);
-            res.status(201).json({ success: true, data: order });
-        } catch (error) {
-            console.error('Error en createOrder:', error);
-            res.status(400).json({ success: false, message: error.message });
-        }
-    },
-
-    updateOrder: async (req, res) => {
-        try {
-            const { id } = req.params;
-            const order = await orderService.updateOrder(id, req.body, req.user.id);
-
-            if (!order) {
-                return res.status(404).json({
-                    success: false,
-                    message: 'Orden no encontrada o no tienes acceso'
-                });
-            }
-
-            res.json({ success: true, data: order });
-        } catch (error) {
-            console.error('Error en updateOrder:', error);
-            res.status(400).json({ success: false, message: error.message });
-        }
-    },
-
-    deleteOrder: async (req, res) => {
-        try {
-            const { id } = req.params;
-            const deleted = await orderService.deleteOrder(id, req.user.id);
-
-            if (!deleted) {
-                return res.status(404).json({
-                    success: false,
-                    message: 'Orden no encontrada o no tienes acceso'
-                });
-            }
-
-            res.json({ success: true, message: 'Orden eliminada correctamente' });
-        } catch (error) {
-            console.error('Error en deleteOrder:', error);
-            res.status(500).json({ success: false, message: error.message });
-        }
+export const getDashboardStatsController = async (req, res) => {
+    try {
+        const stats = await getDashboardStats(req.user);
+        res.json({
+            success: true,
+            data: stats
+        });
+    } catch (error) {
+        console.error('Dashboard stats error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Error fetching dashboard stats'
+        });
     }
 };

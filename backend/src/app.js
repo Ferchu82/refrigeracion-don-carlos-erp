@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 // ⭐ AUTH IMPORTS ⭐
 import authRoutes from './routes/authRoutes.js';
 // ⭐ ORDERS IMPORT ⭐
-import { orderRoutes } from './routes/orderRoutes.js';
+import * as routes from './routes/orderRoutes.js';
 
 dotenv.config();
 
@@ -18,7 +18,7 @@ app.use(cors({ origin: '*' }));
 // ⭐ RUTAS AUTH ⭐
 app.use('/api/auth', authRoutes);
 // ⭐ RUTAS ORDERS ⭐
-app.use('/api/orders', orderRoutes);
+app.use('/api/orders', routes.default);
 import dashboardRoutes from './routes/dashboardRoutes.js';
 app.use('/api/dashboard', dashboardRoutes);
 

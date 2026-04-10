@@ -1,102 +1,150 @@
 import { PrismaClient } from '@prisma/client';
-import { v4 as uuidv4 } from 'uuid';
-
 const prisma = new PrismaClient();
 
-export const orderService = {
-    async getOrdersByTechnician(technicianId) {
-        return await prisma.order.findMany({
-            where: { technicianId },
+export const getOrders = async (user) => {
+    if (user.role === 'ADMIN' || user.role === 'SUPERVISOR') {
+        return prisma.order.findMany({
             include: {
-                technician: {
-                    select: { id: true, email: true, role: true }
-                }
-            },
-            orderBy: { createdAt: 'desc' }
-        });
-    },
-
-    async getOrderById(id, technicianId) {
-        return await prisma.order.findFirst({
-            where: {
-                id,
-                technicianId
-            },
-            include: {
-                technician: {
-                    select: { id: true, email: true, role: true }
-                }
+                user: true,
+                assignedTo: true
             }
         });
-    },
-
-    async createOrder(data) {
-        const now = new Date();
-        const datePrefix = now.toISOString().slice(0, 10).replace(/-/g, '');
-        const randomNum = Math.floor(Math.random() * 999) + 1;
-        const orderNumber = `ORD-${datePrefix}-${randomNum.toString().padStart(3, '0')}`;
-
-        const { customerName, equipment, status, priority } = data;
-        if (!customerName || !equipment) {
-            throw new Error('customerName y equipment son requeridos');
+    }
+    return prisma.order.findMany({
+        where: {
+            OR: [
+                { userId: user.id },
+                { assignedToId: user.id }
+            ]
+        },
+        include: {
+            user: true,
+            assignedTo: true
         }
+    });
+};
 
-        return await prisma.order.create({
-            data: {
-                orderNumber,
-                customerName,
-                equipment,
-                description: data.description,
-                status: data.status || 'PENDIENTE',
-                priority: data.priority || 'NORMAL',
-                technicianId: data.technicianId
-            },
-            include: {
-                technician: {
-                    select: { id: true, email: true, role: true }
-                }
-            }
-        });
-    },
-
-    async updateOrder(id, data, technicianId) {
-        const order = await prisma.order.findFirst({
-            where: { id, technicianId }
-        });
-
-        if (!order) return null;
-
-        if (data.status) {
-            const validTransitions = {
-                PENDIENTE: ['PENDIENTE', 'EN_PROCESO'],
-                'EN_PROCESO': ['EN_PROCESO', 'TERMINADA'],
-                TERMINADA: ['TERMINADA']
-            };
-
-            if (!validTransitions[order.status]?.includes(data.status)) {
-                throw new Error(`Transición inválida: ${order.status} → ${data.status}`);
-            }
+export const createOrder = async (orderData, user) => {
+    return prisma.order.create({
+        data: {
+            ...orderData,
+            userId: user.id
         }
+    });
+};
 
-        return await prisma.order.update({
+export const updateOrder = async (id, data, user) => {
+    if (user.role === 'ADMIN' || user.role === 'SUPERVISOR') {
+        return prisma.order.update({
             where: { id },
-            data,
+            data
+        });
+    }
+    return prisma.order.update({
+        where: {
+            id_userId: {
+                id,
+                userId: user.id
+            }
+        },
+        data
+    });
+};
+
+// ✅ FIX DEFINITIVO - Solo campos que EXISTEN
+export const assignOrder = async (orderId, technicianId, user) => {
+    if (user.role !== 'ADMIN' && user.role !== 'SUPERVISOR') {
+        throw new Error('Solo ADMIN/SUPERVISOR pueden asignar órdenes');
+    }
+
+    const order = await prisma.order.findUnique({ where: { id: orderId } });
+    if (!order) {
+        throw new Error('Orden no encontrada');
+    }
+
+    // ✅ Asignación SIMPLE - sin validaciones extras
+    return prisma.order.update({
+        where: { id: orderId },
+        data: {
+            assignedTo: {
+                connect: { id: technicianId }
+            }
+        },
+        include: {
+            assignedTo: true  // ✅ Todos los campos del técnico
+        }
+    });
+};
+
+export const getOrderById = async (id, user) => {
+    if (user.role === 'ADMIN' || user.role === 'SUPERVISOR') {
+        return prisma.order.findUnique({
+            where: { id },
             include: {
-                technician: {
-                    select: { id: true, email: true, role: true }
-                }
+                user: true,
+                assignedTo: true
             }
         });
-    },
+    }
+    return prisma.order.findFirst({
+        where: {
+            id,
+            OR: [
+                { userId: user.id },
+                { assignedToId: user.id }
+            ]
+        },
+        include: {
+            user: true,
+            assignedTo: true
+        }
+    });
+};
 
-    async deleteOrder(id, technicianId) {
-        const order = await prisma.order.findFirst({
-            where: { id, technicianId }
+export const deleteOrder = async (id, user) => {
+    if (user.role !== 'ADMIN' && user.role !== 'SUPERVISOR') {
+        throw new Error('Solo ADMIN/SUPERVISOR pueden eliminar órdenes');
+    }
+
+    const order = await prisma.order.findUnique({ where: { id } });
+    if (!order) {
+        throw new Error('Orden no encontrada');
+    }
+
+    return prisma.order.delete({
+        where: { id }
+    });
+};
+
+export const getDashboardStats = async (user) => {
+    try {
+        const baseWhere = user.role === 'ADMIN' ? {} : { assignedToId: user.id };
+
+        const totalOrders = await prisma.order.count({ where: baseWhere });
+        const pendingOrders = await prisma.order.count({
+            where: {
+                ...baseWhere,
+                status: { equals: 'PENDING' }
+            }
         });
 
-        if (!order) return null;
+        const technicians = user.role === 'ADMIN'
+            ? await prisma.user.count({ where: { role: 'TECHNICIAN' } })
+            : 0;
 
-        await prisma.order.delete({ where: { id } });
-        return true;
+        return {
+            totalOrders,
+            pendingOrders,
+            assignedOrders: totalOrders - pendingOrders,
+            technicians
+        };
+    } catch (error) {
+        console.error('Dashboard stats error:', error);
+        return {
+            totalOrders: 0,
+            pendingOrders: 0,
+            assignedOrders: 0,
+            technicians: 0
+        };
     }
 };
