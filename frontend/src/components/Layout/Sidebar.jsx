@@ -1,62 +1,57 @@
-import { NavLink } from 'react-router-dom';
-import { useAuth } from '../../context/AuthContext';
+import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
-const Sidebar = () => {
-    const { user } = useAuth();
-    const isAdmin = user?.role === 'ADMIN';
+const navItems = [
+    { icon: '📊', label: 'Dashboard', path: '/' },
+    { icon: '📦', label: 'Productos', path: '/products' },
+    { icon: '👥', label: 'Clientes', path: '/clients' },
+    { icon: '💰', label: 'Ventas', path: '/sales' },
+    { icon: '📋', label: 'Pedidos', path: '/orders' },
+];
+
+export default function Sidebar({ isOpen, onClose }) {
+    const location = useLocation();
 
     return (
-        <nav className="h-full flex flex-col p-3 space-y-1 bg-gradient-to-b from-gray-900 to-gray-800">
-            {/* Logo/Title pequeño */}
-            <div className="p-2 mb-4 border-b border-gray-700">
-                <h3 className="text-xs font-bold text-blue-400 uppercase tracking-wider">ERP</h3>
+        <>
+            {/* Mobile overlay */}
+            {isOpen && (
+                <div
+                    className="fixed inset-0 z-40 bg-black bg-opacity-50 lg:hidden"
+                    onClick={onClose}
+                />
+            )}
+
+            {/* Sidebar */}
+            <div className={`
+        fixed inset-y-0 left-0 z-50 w-64 bg-white shadow-lg transform 
+        ${isOpen ? 'translate-x-0' : '-translate-x-full'}
+        lg:translate-x-0 lg:static lg:inset-0 transition-transform duration-200 ease-in-out
+      `}>
+                <div className="flex items-center justify-center h-16 px-4 bg-blue-600 text-white">
+                    <h1 className="text-xl font-bold">Don Carlos</h1>
+                </div>
+
+                <nav className="mt-8 px-4">
+                    {navItems.map((item) => (
+                        <Link
+                            key={item.path}
+                            to={item.path}
+                            className={`
+                flex items-center px-4 py-3 mb-2 rounded-lg text-sm font-medium transition-colors
+                ${location.pathname === item.path
+                                    ? 'bg-blue-600 text-white shadow-md'
+                                    : 'text-gray-700 hover:bg-gray-100'
+                                }
+              `}
+                            onClick={onClose}
+                        >
+                            <span className="mr-3 text-lg">{item.icon}</span>
+                            {item.label}
+                        </Link>
+                    ))}
+                </nav>
             </div>
-
-            {/* Menu compacto */}
-            <div className="flex-1 space-y-1">
-                <NavLink
-                    to="/dashboard"
-                    className={({ isActive }) =>
-                        `flex items-center p-2.5 text-sm rounded-lg transition-all duration-200 ${isActive
-                            ? 'bg-blue-600 text-white shadow-md'
-                            : 'text-gray-300 hover:bg-gray-700 hover:text-white'
-                        }`
-                    }
-                >
-                    <span className="w-5 mr-2 text-lg">📊</span>
-                    Dashboard
-                </NavLink>
-
-                <NavLink
-                    to="/orders"
-                    className={({ isActive }) =>
-                        `flex items-center p-2.5 text-sm rounded-lg transition-all duration-200 ${isActive
-                            ? 'bg-blue-600 text-white shadow-md'
-                            : 'text-gray-300 hover:bg-gray-700 hover:text-white'
-                        }`
-                    }
-                >
-                    <span className="w-5 mr-2 text-lg">📋</span>
-                    Órdenes
-                </NavLink>
-
-                {isAdmin && (
-                    <NavLink
-                        to="/assign"
-                        className={({ isActive }) =>
-                            `flex items-center p-2.5 text-sm rounded-lg transition-all duration-200 ${isActive
-                                ? 'bg-blue-600 text-white shadow-md'
-                                : 'text-gray-300 hover:bg-gray-700 hover:text-white'
-                            }`
-                        }
-                    >
-                        <span className="w-5 mr-2 text-lg">👨‍🔧</span>
-                        Asignar
-                    </NavLink>
-                )}
-            </div>
-        </nav>
+        </>
     );
-};
-
-export default Sidebar;
+}
