@@ -1,0 +1,1338 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ferna\refrigeracion-don-carlos-erp\backend\.npmrc
+5 silly config load:file:C:\Users\ferna\.npmrc
+6 silly config load:file:C:\Users\ferna\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-11T11_53_48_912Z-
+10 verbose logfile C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-11T11_53_48_912Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\abbrev'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\agent-base'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ansi-regex'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\anymatch'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\aproba'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\are-we-there-yet'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\array-flatten'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\balanced-match'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\basic-auth'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\bcrypt'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\binary-extensions'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\body-parser'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\brace-expansion'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\braces'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\accepts'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\bytes'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\call-bind-apply-helpers'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\call-bound'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\chownr'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\chokidar'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\buffer-equal-constant-time'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\concat-map'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\console-control-strings'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\content-disposition'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\cookie'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\content-type'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\cookie-signature'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\cors'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\debug'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\delegates'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\depd'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\destroy'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\detect-libc'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\dotenv'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\dunder-proto'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ecdsa-sig-formatter'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ee-first'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\emoji-regex'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\encodeurl'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\es-define-property'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\es-errors'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\es-object-atoms'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\escape-html'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\express'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\etag'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\express-rate-limit'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fill-range'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\finalhandler'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\forwarded'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fresh'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fs-minipass'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fs.realpath'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\function-bind'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\gauge'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\get-intrinsic'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\get-proto'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\glob'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\glob-parent'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\gopd'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\has-flag'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\has-symbols'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\has-unicode'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\hasown'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\helmet'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\http-errors'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\https-proxy-agent'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\iconv-lite'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ignore-by-default'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\inflight'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\inherits'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ipaddr.js'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-binary-path'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-extglob'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-fullwidth-code-point'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-glob'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-number'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\jsonwebtoken'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\jwa'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\jws'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.includes'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isboolean'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isinteger'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isnumber'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isplainobject'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isstring'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.once'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\make-dir'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\math-intrinsics'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\media-typer'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\merge-descriptors'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\methods'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mime-db'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mime-types'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\minimatch'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\morgan'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\negotiator'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\minizlib'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\node-addon-api'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\node-fetch'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\normalize-path'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\npmlog'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\object-assign'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\object-inspect'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\on-finished'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\on-headers'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\once'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\parseurl'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\path-is-absolute'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\path-to-regexp'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\picomatch'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\proxy-addr'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\pstree.remy'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\qs'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\range-parser'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\raw-body'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\readdirp'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\readable-stream'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\safe-buffer'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\safer-buffer'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\send'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\serve-static'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\set-blocking'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\setprototypeof'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel-list'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel-map'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel-weakmap'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\signal-exit'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\simple-update-notifier'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\statuses'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\string-width'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\string_decoder'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\strip-ansi'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\supports-color'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\tar'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\to-regex-range'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\toidentifier'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\tr46'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\type-is'
+153 silly reify ]
+154 silly reify mark retired [
+154 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\undefsafe'
+154 silly reify ]
+155 silly reify mark retired [
+155 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\unpipe'
+155 silly reify ]
+156 silly reify mark retired [
+156 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\util-deprecate'
+156 silly reify ]
+157 silly reify mark retired [
+157 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\utils-merge'
+157 silly reify ]
+158 silly reify mark retired [
+158 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\vary'
+158 silly reify ]
+159 silly reify mark retired [
+159 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\webidl-conversions'
+159 silly reify ]
+160 silly reify mark retired [
+160 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\whatwg-url'
+160 silly reify ]
+161 silly reify mark retired [
+161 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\wide-align'
+161 silly reify ]
+162 silly reify mark retired [
+162 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\wrappy'
+162 silly reify ]
+163 silly reify mark retired [
+163 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\yallist'
+163 silly reify ]
+164 silly reify mark retired [
+164 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\client'
+164 silly reify ]
+165 silly reify mark retired [
+165 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\debug'
+165 silly reify ]
+166 silly reify mark retired [
+166 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\fetch-engine'
+166 silly reify ]
+167 silly reify mark retired [
+167 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\engines-version'
+167 silly reify ]
+168 silly reify mark retired [
+168 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\engines'
+168 silly reify ]
+169 silly reify mark retired [
+169 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\get-platform'
+169 silly reify ]
+170 silly reify mark retired [
+170 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\color-support',
+170 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\color-support',
+170 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\color-support.cmd',
+170 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\color-support.ps1'
+170 silly reify ]
+171 silly reify mark retired [
+171 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mime',
+171 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mime',
+171 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mime.cmd',
+171 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mime.ps1'
+171 silly reify ]
+172 silly reify mark retired [
+172 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\bcryptjs',
+172 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\bcrypt',
+172 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\bcrypt.cmd',
+172 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\bcrypt.ps1'
+172 silly reify ]
+173 silly reify mark retired [
+173 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mkdirp',
+173 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mkdirp',
+173 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mkdirp.cmd',
+173 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mkdirp.ps1'
+173 silly reify ]
+174 silly reify mark retired [
+174 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\nopt',
+174 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nopt',
+174 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nopt.cmd',
+174 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nopt.ps1'
+174 silly reify ]
+175 silly reify mark retired [
+175 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\nodemon',
+175 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodemon',
+175 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodemon.cmd',
+175 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodemon.ps1'
+175 silly reify ]
+176 silly reify mark retired [
+176 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\prisma',
+176 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\prisma',
+176 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\prisma.cmd',
+176 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\prisma.ps1'
+176 silly reify ]
+177 silly reify mark retired [
+177 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\rimraf',
+177 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\rimraf',
+177 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\rimraf.cmd',
+177 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\rimraf.ps1'
+177 silly reify ]
+178 silly reify mark retired [
+178 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\semver',
+178 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\semver',
+178 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\semver.cmd',
+178 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\semver.ps1'
+178 silly reify ]
+179 silly reify mark retired [
+179 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\touch',
+179 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodetouch',
+179 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodetouch.cmd',
+179 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodetouch.ps1'
+179 silly reify ]
+180 silly reify mark retired [
+180 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\uuid',
+180 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\uuid',
+180 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\uuid.cmd',
+180 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\uuid.ps1'
+180 silly reify ]
+181 silly reify mark retired [
+181 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@mapbox\\node-pre-gyp',
+181 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\node-pre-gyp',
+181 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\node-pre-gyp.cmd',
+181 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\node-pre-gyp.ps1'
+181 silly reify ]
+182 silly reify moves {
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\abbrev': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.abbrev-e5piXmlV',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\agent-base': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.agent-base-KLm1H0Fu',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ansi-regex': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.ansi-regex-Xwci8RQD',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\anymatch': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.anymatch-3nuVBC5t',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\aproba': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.aproba-Rq5XZdvW',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\are-we-there-yet': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.are-we-there-yet-UP2v6ENN',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\array-flatten': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.array-flatten-LGc2UY2H',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\balanced-match': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.balanced-match-RndViWHT',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\basic-auth': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.basic-auth-Gd85uHDb',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\bcrypt': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bcrypt-twPsbjLz',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\binary-extensions': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.binary-extensions-rgjfALFc',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\body-parser': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.body-parser-LRiQIO3u',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\brace-expansion': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.brace-expansion-iIYRJ1Oe',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\braces': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.braces-SS7PprZx',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\accepts': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.accepts-SrxaLG1b',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\bytes': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bytes-q4qAa3Dd',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\call-bind-apply-helpers': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.call-bind-apply-helpers-cc6dOn6Q',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\call-bound': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.call-bound-4NY4Vb9n',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\chownr': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.chownr-UYIS2NyF',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\chokidar': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.chokidar-VsqiGDNV',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\buffer-equal-constant-time': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.buffer-equal-constant-time-KekeCufk',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\concat-map': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.concat-map-4vAWa2Wh',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\console-control-strings': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.console-control-strings-wGMkXicX',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\content-disposition': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.content-disposition-y9vqdQBz',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\cookie': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.cookie-yX65nSZ4',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\content-type': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.content-type-R4w8LpbF',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\cookie-signature': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.cookie-signature-YCrbdPao',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\cors': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.cors-uy1xiY3r',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\debug': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.debug-4gRTZXER',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\delegates': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.delegates-IIfwXMzy',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\depd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.depd-iZjQcx0a',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\destroy': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.destroy-GkuhsJQX',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\detect-libc': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.detect-libc-jUwAL1EI',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\dotenv': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.dotenv-poGMIOAr',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\dunder-proto': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.dunder-proto-rnUUha28',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ecdsa-sig-formatter': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.ecdsa-sig-formatter-Th53WNgV',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ee-first': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.ee-first-A6iPDDK4',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\emoji-regex': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.emoji-regex-WezoQFv9',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\encodeurl': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.encodeurl-043JWjWG',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\es-define-property': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.es-define-property-cgcblV43',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\es-errors': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.es-errors-IjT1851j',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\es-object-atoms': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.es-object-atoms-WmUyvMPy',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\escape-html': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.escape-html-3exqxLdE',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\express': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.express-G0kaUwod',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\etag': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.etag-3M75veLq',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\express-rate-limit': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.express-rate-limit-wq1veIQw',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fill-range': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.fill-range-ZMCDbonL',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\finalhandler': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.finalhandler-f2iBmsTf',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\forwarded': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.forwarded-KK1rqS5F',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fresh': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.fresh-Z5mp0awm',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fs-minipass': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.fs-minipass-GWWLtdDZ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\fs.realpath': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.fs.realpath-HlYZsurr',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\function-bind': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.function-bind-sxbdT8Zv',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\gauge': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.gauge-O9Sp0lsb',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\get-intrinsic': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.get-intrinsic-OvuRmGau',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\get-proto': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.get-proto-omvObmTU',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\glob': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.glob-qIEO6KN1',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\glob-parent': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.glob-parent-5F2L06AS',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\gopd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.gopd-yBRuWauL',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\has-flag': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.has-flag-uiocAa22',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\has-symbols': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.has-symbols-o8sxwcaN',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\has-unicode': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.has-unicode-Ka54xnZ5',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\hasown': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.hasown-uaJhPUFw',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\helmet': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.helmet-c3PLcdUb',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\http-errors': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.http-errors-HYczhnn9',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\https-proxy-agent': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.https-proxy-agent-JgSuIbSo',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\iconv-lite': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.iconv-lite-jGhBho8I',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ignore-by-default': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.ignore-by-default-THg4WhAW',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\inflight': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.inflight-jUC6qVUH',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\inherits': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.inherits-5ryUr6bS',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\ipaddr.js': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.ipaddr.js-uqwkBmFI',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-binary-path': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.is-binary-path-QNbI91ED',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-extglob': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.is-extglob-CTxqeHXM',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-fullwidth-code-point': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.is-fullwidth-code-point-tlIhBZiV',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-glob': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.is-glob-EgYDfbpx',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\is-number': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.is-number-2mNh8RFK',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\jsonwebtoken': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.jsonwebtoken-cpkOlAeY',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\jwa': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.jwa-ZMyiwvrp',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\jws': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.jws-0LM7XL4w',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.includes': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.lodash.includes-id2e2vBU',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isboolean': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.lodash.isboolean-ltNATfta',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isinteger': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.lodash.isinteger-lyvIvDUu',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isnumber': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.lodash.isnumber-4941SqRU',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isplainobject': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.lodash.isplainobject-NghsWM81',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.isstring': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.lodash.isstring-vLrAyOoD',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\lodash.once': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.lodash.once-L1Od6Gy2',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\make-dir': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.make-dir-lpDXSzyU',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\math-intrinsics': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.math-intrinsics-fXQuZag6',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\media-typer': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.media-typer-nIIyTwj2',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\merge-descriptors': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.merge-descriptors-WyEibHeQ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\methods': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.methods-jsMiLpzU',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mime-db': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.mime-db-HjSc7rKA',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mime-types': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.mime-types-O4Xg2AvA',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\minimatch': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.minimatch-6hHy2ozu',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\morgan': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.morgan-ZfxRKZYi',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\negotiator': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.negotiator-t77oqvSW',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\minizlib': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.minizlib-5dKg1St2',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\node-addon-api': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.node-addon-api-FbmslXCR',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\node-fetch': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.node-fetch-8zOEOwIw',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\normalize-path': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.normalize-path-UOPc6ItY',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\npmlog': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.npmlog-aJQFH2Zq',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\object-assign': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.object-assign-xYVDj3wh',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\object-inspect': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.object-inspect-RS5UUa5m',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\on-finished': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.on-finished-wIiIUIvR',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\on-headers': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.on-headers-fq7WGqtm',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\once': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.once-t3vzNKkp',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\parseurl': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.parseurl-Ih8kqv4v',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\path-is-absolute': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.path-is-absolute-cAdzRAF1',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\path-to-regexp': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.path-to-regexp-mxJ9f5me',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\picomatch': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.picomatch-intFnoSt',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\proxy-addr': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.proxy-addr-vrZ6li8D',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\pstree.remy': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.pstree.remy-HFjLMrBa',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\qs': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.qs-kTQYntrt',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\range-parser': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.range-parser-0dpqmfPj',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\raw-body': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.raw-body-VaO3E70S',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\readdirp': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.readdirp-mmImUTHo',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\readable-stream': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.readable-stream-eQkvVpc0',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\safe-buffer': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.safe-buffer-rMKAT0ZB',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\safer-buffer': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.safer-buffer-7CfuHuYM',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\send': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.send-VJsYHqBQ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\serve-static': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.serve-static-N5WLWSCJ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\set-blocking': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.set-blocking-hnRDQ82U',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\setprototypeof': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.setprototypeof-LGvKiDgA',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.side-channel-0UV1t0VP',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel-list': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.side-channel-list-rJcsA8uU',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel-map': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.side-channel-map-MAhQzMQz',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\side-channel-weakmap': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.side-channel-weakmap-TqYHTaph',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\signal-exit': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.signal-exit-wZNUqHbd',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\simple-update-notifier': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.simple-update-notifier-EA7qlfv7',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\statuses': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.statuses-bZpprDfs',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\string-width': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.string-width-8vq5mR9g',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\string_decoder': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.string_decoder-Mg7mThRV',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\strip-ansi': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.strip-ansi-Jo9kyKd1',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\supports-color': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.supports-color-TxVmo1a9',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\tar': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.tar-1ODmHqmG',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\to-regex-range': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.to-regex-range-6ss5NWu7',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\toidentifier': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.toidentifier-Hpbxe6DX',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\tr46': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.tr46-JULmjwZm',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\type-is': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.type-is-8mEX8FVl',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\undefsafe': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.undefsafe-yXf0y8tp',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\unpipe': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.unpipe-LXRpgQpq',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\util-deprecate': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.util-deprecate-RfIbpti4',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\utils-merge': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.utils-merge-UB1GEPtF',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\vary': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.vary-8BuTeN6C',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\webidl-conversions': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.webidl-conversions-Pz0PV9IL',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\whatwg-url': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.whatwg-url-CahuY9bI',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\wide-align': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.wide-align-ITTanoYy',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\wrappy': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.wrappy-LIFhEjAP',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\yallist': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.yallist-iKaA3I8V',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\client': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\.client-cQ5TgmRd',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\debug': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\.debug-KHk88x0U',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\fetch-engine': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\.fetch-engine-unfOXH4a',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\engines-version': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\.engines-version-Xbawt0dE',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\engines': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\.engines-VT7C5GgL',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\get-platform': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@prisma\\.get-platform-RfMwQHu0',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\color-support': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.color-support-DNqCQELp',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\color-support': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.color-support-7RRBo1tB',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\color-support.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.color-support.cmd-Lulmk4gi',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\color-support.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.color-support.ps1-6AWaGyvu',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mime': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.mime-pRNhnAYo',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mime': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.mime-dSxOBWBl',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mime.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.mime.cmd-612juIJ6',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mime.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.mime.ps1-M2IEhOui',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\bcryptjs': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bcryptjs-1Fl7cYAW',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\bcrypt': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.bcrypt-8yl6X1Xr',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\bcrypt.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.bcrypt.cmd-pBaKvdtG',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\bcrypt.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.bcrypt.ps1-7jeLxnbu',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\mkdirp': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.mkdirp-YUQzPwxH',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mkdirp': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.mkdirp-nRSUUDS8',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mkdirp.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.mkdirp.cmd-mEiqup6u',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\mkdirp.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.mkdirp.ps1-JKt6XMo2',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\nopt': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.nopt-ElWUl9RU',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nopt': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nopt-H9eSP3Jy',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nopt.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nopt.cmd-Y8zt0Vku',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nopt.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nopt.ps1-zw5BsbbY',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\nodemon': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.nodemon-GJcvAPxL',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodemon': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nodemon-28Sn0W4n',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodemon.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nodemon.cmd-CYyTBH5f',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodemon.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nodemon.ps1-Dewf3bGZ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\prisma': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.prisma-7JUaQWub',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\prisma': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.prisma-sh9tnDwC',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\prisma.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.prisma.cmd-PIwX0WII',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\prisma.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.prisma.ps1-S5hge0F1',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\rimraf': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.rimraf-HnNWMHV7',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\rimraf': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.rimraf-W1OsenEs',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\rimraf.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.rimraf.cmd-BpmwbnJx',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\rimraf.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.rimraf.ps1-5gHCxXFJ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\semver': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.semver-bUhjytZg',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\semver': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.semver-qylEVCRC',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.semver.cmd-g0BrHJ0J',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.semver.ps1-hFme1u0B',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\touch': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.touch-qxf2Jaz7',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodetouch': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nodetouch-G3kKvaap',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodetouch.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nodetouch.cmd-RYSncIud',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\nodetouch.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.nodetouch.ps1-qHJCogOQ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\uuid': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.uuid-mgMKgqPe',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\uuid': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.uuid-gei76JBH',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\uuid.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.uuid.cmd-TK5DqGhJ',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\uuid.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.uuid.ps1-NtFdWqjI',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@mapbox\\node-pre-gyp': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\@mapbox\\.node-pre-gyp-gS9WCFLr',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\node-pre-gyp': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.node-pre-gyp-UApEhwtW',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\node-pre-gyp.cmd': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.node-pre-gyp.cmd-bp5jnGq8',
+182 silly reify   'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\node-pre-gyp.ps1': 'C:\\Users\\ferna\\refrigeracion-don-carlos-erp\\backend\\node_modules\\.bin\\.node-pre-gyp.ps1-km3COhMa'
+182 silly reify }
+183 silly audit bulk request {
+183 silly audit   '@mapbox/node-pre-gyp': [ '1.0.11' ],
+183 silly audit   '@prisma/client': [ '5.22.0' ],
+183 silly audit   '@prisma/debug': [ '5.22.0' ],
+183 silly audit   '@prisma/engines': [ '5.22.0' ],
+183 silly audit   '@prisma/engines-version': [ '5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2' ],
+183 silly audit   '@prisma/fetch-engine': [ '5.22.0' ],
+183 silly audit   '@prisma/get-platform': [ '5.22.0' ],
+183 silly audit   abbrev: [ '1.1.1' ],
+183 silly audit   accepts: [ '1.3.8' ],
+183 silly audit   'agent-base': [ '6.0.2' ],
+183 silly audit   debug: [ '4.4.3', '2.6.9' ],
+183 silly audit   ms: [ '2.1.3', '2.0.0' ],
+183 silly audit   'ansi-regex': [ '5.0.1' ],
+183 silly audit   anymatch: [ '3.1.3' ],
+183 silly audit   aproba: [ '2.1.0' ],
+183 silly audit   'are-we-there-yet': [ '2.0.0' ],
+183 silly audit   'array-flatten': [ '1.1.1' ],
+183 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+183 silly audit   'basic-auth': [ '2.0.1' ],
+183 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+183 silly audit   bcrypt: [ '5.1.1' ],
+183 silly audit   bcryptjs: [ '3.0.3' ],
+183 silly audit   'binary-extensions': [ '2.3.0' ],
+183 silly audit   'body-parser': [ '1.20.4' ],
+183 silly audit   'brace-expansion': [ '5.0.5', '1.1.13' ],
+183 silly audit   braces: [ '3.0.3' ],
+183 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+183 silly audit   bytes: [ '3.1.2' ],
+183 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+183 silly audit   'call-bound': [ '1.0.4' ],
+183 silly audit   chokidar: [ '3.6.0' ],
+183 silly audit   chownr: [ '2.0.0' ],
+183 silly audit   'color-support': [ '1.1.3' ],
+183 silly audit   'concat-map': [ '0.0.1' ],
+183 silly audit   'console-control-strings': [ '1.1.0' ],
+183 silly audit   'content-disposition': [ '0.5.4' ],
+183 silly audit   'content-type': [ '1.0.5' ],
+183 silly audit   cookie: [ '0.7.2' ],
+183 silly audit   'cookie-signature': [ '1.0.7' ],
+183 silly audit   cors: [ '2.8.6' ],
+183 silly audit   delegates: [ '1.0.0' ],
+183 silly audit   depd: [ '2.0.0' ],
+183 silly audit   destroy: [ '1.2.0' ],
+183 silly audit   'detect-libc': [ '2.1.2' ],
+183 silly audit   dotenv: [ '16.6.1' ],
+183 silly audit   'dunder-proto': [ '1.0.1' ],
+183 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+183 silly audit   'ee-first': [ '1.1.1' ],
+183 silly audit   'emoji-regex': [ '8.0.0' ],
+183 silly audit   encodeurl: [ '2.0.0' ],
+183 silly audit   'es-define-property': [ '1.0.1' ],
+183 silly audit   'es-errors': [ '1.3.0' ],
+183 silly audit   'es-object-atoms': [ '1.1.1' ],
+183 silly audit   'escape-html': [ '1.0.3' ],
+183 silly audit   etag: [ '1.8.1' ],
+183 silly audit   express: [ '4.22.1' ],
+183 silly audit   'express-rate-limit': [ '6.11.2' ],
+183 silly audit   'fill-range': [ '7.1.1' ],
+183 silly audit   finalhandler: [ '1.3.2' ],
+183 silly audit   forwarded: [ '0.2.0' ],
+183 silly audit   fresh: [ '0.5.2' ],
+183 silly audit   'fs-minipass': [ '2.1.0' ],
+183 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+183 silly audit   'fs.realpath': [ '1.0.0' ],
+183 silly audit   fsevents: [ '2.3.3' ],
+183 silly audit   'function-bind': [ '1.1.2' ],
+183 silly audit   gauge: [ '3.0.2' ],
+183 silly audit   'get-intrinsic': [ '1.3.0' ],
+183 silly audit   'get-proto': [ '1.0.1' ],
+183 silly audit   glob: [ '7.2.3' ],
+183 silly audit   'glob-parent': [ '5.1.2' ],
+183 silly audit   minimatch: [ '3.1.5', '10.2.5' ],
+183 silly audit   gopd: [ '1.2.0' ],
+183 silly audit   'has-flag': [ '3.0.0' ],
+183 silly audit   'has-symbols': [ '1.1.0' ],
+183 silly audit   'has-unicode': [ '2.0.1' ],
+183 silly audit   hasown: [ '2.0.2' ],
+183 silly audit   helmet: [ '7.2.0' ],
+183 silly audit   'http-errors': [ '2.0.1' ],
+183 silly audit   'https-proxy-agent': [ '5.0.1' ],
+183 silly audit   'iconv-lite': [ '0.4.24' ],
+183 silly audit   'ignore-by-default': [ '1.0.1' ],
+183 silly audit   inflight: [ '1.0.6' ],
+183 silly audit   inherits: [ '2.0.4' ],
+183 silly audit   'ipaddr.js': [ '1.9.1' ],
+183 silly audit   'is-binary-path': [ '2.1.0' ],
+183 silly audit   'is-extglob': [ '2.1.1' ],
+183 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+183 silly audit   'is-glob': [ '4.0.3' ],
+183 silly audit   'is-number': [ '7.0.0' ],
+183 silly audit   jsonwebtoken: [ '9.0.3' ],
+183 silly audit   jwa: [ '2.0.1' ],
+183 silly audit   jws: [ '4.0.1' ],
+183 silly audit   'lodash.includes': [ '4.3.0' ],
+183 silly audit   'lodash.isboolean': [ '3.0.3' ],
+183 silly audit   'lodash.isinteger': [ '4.0.4' ],
+183 silly audit   'lodash.isnumber': [ '3.0.3' ],
+183 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+183 silly audit   'lodash.isstring': [ '4.0.1' ],
+183 silly audit   'lodash.once': [ '4.1.1' ],
+183 silly audit   'make-dir': [ '3.1.0' ],
+183 silly audit   semver: [ '6.3.1', '7.7.4' ],
+183 silly audit   'math-intrinsics': [ '1.1.0' ],
+183 silly audit   'media-typer': [ '0.3.0' ],
+183 silly audit   'merge-descriptors': [ '1.0.3' ],
+183 silly audit   methods: [ '1.1.2' ],
+183 silly audit   mime: [ '1.6.0' ],
+183 silly audit   'mime-db': [ '1.52.0' ],
+183 silly audit   'mime-types': [ '2.1.35' ],
+183 silly audit   minizlib: [ '2.1.2' ],
+183 silly audit   mkdirp: [ '1.0.4' ],
+183 silly audit   morgan: [ '1.10.1' ],
+183 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+183 silly audit   negotiator: [ '0.6.3' ],
+183 silly audit   'node-addon-api': [ '5.1.0' ],
+183 silly audit   'node-fetch': [ '2.7.0' ],
+183 silly audit   nodemon: [ '3.1.14' ],
+183 silly audit   nopt: [ '5.0.0' ],
+183 silly audit   'normalize-path': [ '3.0.0' ],
+183 silly audit   npmlog: [ '5.0.1' ],
+183 silly audit   'object-assign': [ '4.1.1' ],
+183 silly audit   'object-inspect': [ '1.13.4' ],
+183 silly audit   'on-headers': [ '1.1.0' ],
+183 silly audit   once: [ '1.4.0' ],
+183 silly audit   parseurl: [ '1.3.3' ],
+183 silly audit   'path-is-absolute': [ '1.0.1' ],
+183 silly audit   'path-to-regexp': [ '0.1.13' ],
+183 silly audit   picomatch: [ '2.3.2' ],
+183 silly audit   prisma: [ '5.22.0' ],
+183 silly audit   'proxy-addr': [ '2.0.7' ],
+183 silly audit   'pstree.remy': [ '1.1.8' ],
+183 silly audit   qs: [ '6.14.2' ],
+183 silly audit   'range-parser': [ '1.2.1' ],
+183 silly audit   'raw-body': [ '2.5.3' ],
+183 silly audit   'readable-stream': [ '3.6.2' ],
+183 silly audit   readdirp: [ '3.6.0' ],
+183 silly audit   rimraf: [ '3.0.2' ],
+183 silly audit   'safer-buffer': [ '2.1.2' ],
+183 silly audit   send: [ '0.19.2' ],
+183 silly audit   'serve-static': [ '1.16.3' ],
+183 silly audit   'set-blocking': [ '2.0.0' ],
+183 silly audit   setprototypeof: [ '1.2.0' ],
+183 silly audit   'side-channel': [ '1.1.0' ],
+183 silly audit   'side-channel-list': [ '1.0.1' ],
+183 silly audit   'side-channel-map': [ '1.0.1' ],
+183 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+183 silly audit   'signal-exit': [ '3.0.7' ],
+183 silly audit   'simple-update-notifier': [ '2.0.0' ],
+183 silly audit   statuses: [ '2.0.2' ],
+183 silly audit   string_decoder: [ '1.3.0' ],
+183 silly audit   'string-width': [ '4.2.3' ],
+183 silly audit   'strip-ansi': [ '6.0.1' ],
+183 silly audit   'supports-color': [ '5.5.0' ],
+183 silly audit   tar: [ '6.2.1' ],
+183 silly audit   'to-regex-range': [ '5.0.1' ],
+183 silly audit   toidentifier: [ '1.0.1' ],
+183 silly audit   touch: [ '3.1.1' ],
+183 silly audit   tr46: [ '0.0.3' ],
+183 silly audit   'type-is': [ '1.6.18' ],
+183 silly audit   undefsafe: [ '2.0.5' ],
+183 silly audit   unpipe: [ '1.0.0' ],
+183 silly audit   'util-deprecate': [ '1.0.2' ],
+183 silly audit   'utils-merge': [ '1.0.1' ],
+183 silly audit   uuid: [ '13.0.0' ],
+183 silly audit   vary: [ '1.1.2' ],
+183 silly audit   'webidl-conversions': [ '3.0.1' ],
+183 silly audit   'whatwg-url': [ '5.0.0' ],
+183 silly audit   'wide-align': [ '1.1.5' ],
+183 silly audit   wrappy: [ '1.0.2' ],
+183 silly audit   yallist: [ '4.0.0' ]
+183 silly audit }
+184 http cache @mapbox/node-pre-gyp@https://registry.npmjs.org/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.11.tgz 1ms (cache hit)
+185 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-13.0.0.tgz 0ms (cache hit)
+186 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+187 http cache touch@https://registry.npmjs.org/touch/-/touch-3.1.1.tgz 0ms (cache hit)
+188 http cache rimraf@https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 0ms (cache hit)
+189 http cache nodemon@https://registry.npmjs.org/nodemon/-/nodemon-3.1.14.tgz 0ms (cache hit)
+190 http cache prisma@https://registry.npmjs.org/prisma/-/prisma-5.22.0.tgz 0ms (cache hit)
+191 http cache nopt@https://registry.npmjs.org/nopt/-/nopt-5.0.0.tgz 0ms (cache hit)
+192 http cache bcryptjs@https://registry.npmjs.org/bcryptjs/-/bcryptjs-3.0.3.tgz 0ms (cache hit)
+193 http cache color-support@https://registry.npmjs.org/color-support/-/color-support-1.1.3.tgz 0ms (cache hit)
+194 http cache mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 0ms (cache hit)
+195 http cache @prisma/engines@https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz 0ms (cache hit)
+196 http cache @prisma/get-platform@https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz 0ms (cache hit)
+197 http cache @prisma/engines-version@https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz 0ms (cache hit)
+198 http cache @prisma/fetch-engine@https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz 0ms (cache hit)
+199 http cache @prisma/debug@https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz 0ms (cache hit)
+200 http cache @prisma/client@https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz 0ms (cache hit)
+201 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz 0ms (cache hit)
+202 http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+203 http cache wide-align@https://registry.npmjs.org/wide-align/-/wide-align-1.1.5.tgz 0ms (cache hit)
+204 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 0ms (cache hit)
+205 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 0ms (cache hit)
+206 http cache vary@https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 0ms (cache hit)
+207 http cache utils-merge@https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz 0ms (cache hit)
+208 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+209 http cache unpipe@https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 0ms (cache hit)
+210 http cache type-is@https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 1ms (cache hit)
+211 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 0ms (cache hit)
+212 http cache toidentifier@https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 0ms (cache hit)
+213 http cache undefsafe@https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz 0ms (cache hit)
+214 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+215 http cache tar@https://registry.npmjs.org/tar/-/tar-6.2.1.tgz 0ms (cache hit)
+216 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 0ms (cache hit)
+217 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+218 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+219 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+220 http cache simple-update-notifier@https://registry.npmjs.org/simple-update-notifier/-/simple-update-notifier-2.0.0.tgz 0ms (cache hit)
+221 http cache side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+222 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz 0ms (cache hit)
+223 http cache side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+224 http cache side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+225 http cache setprototypeof@https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 0ms (cache hit)
+226 http cache set-blocking@https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz 0ms (cache hit)
+227 http cache serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.16.3.tgz 0ms (cache hit)
+228 http cache send@https://registry.npmjs.org/send/-/send-0.19.2.tgz 0ms (cache hit)
+229 http cache safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+230 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+231 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+232 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 0ms (cache hit)
+233 http cache raw-body@https://registry.npmjs.org/raw-body/-/raw-body-2.5.3.tgz 0ms (cache hit)
+234 http cache statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz 0ms (cache hit)
+235 http cache range-parser@https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 0ms (cache hit)
+236 http cache qs@https://registry.npmjs.org/qs/-/qs-6.14.2.tgz 0ms (cache hit)
+237 http cache mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 0ms (cache hit)
+238 http cache pstree.remy@https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz 0ms (cache hit)
+239 http cache proxy-addr@https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz 0ms (cache hit)
+240 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz 0ms (cache hit)
+241 http cache path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.13.tgz 0ms (cache hit)
+242 http cache parseurl@https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 0ms (cache hit)
+243 http cache path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 0ms (cache hit)
+244 http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+245 http cache on-headers@https://registry.npmjs.org/on-headers/-/on-headers-1.1.0.tgz 0ms (cache hit)
+246 http cache signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz 0ms (cache hit)
+247 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+248 http cache object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+249 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+250 http cache npmlog@https://registry.npmjs.org/npmlog/-/npmlog-5.0.1.tgz 0ms (cache hit)
+251 http cache normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 0ms (cache hit)
+252 http cache node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.1.0.tgz 0ms (cache hit)
+253 http cache morgan@https://registry.npmjs.org/morgan/-/morgan-1.10.1.tgz 0ms (cache hit)
+254 http cache minizlib@https://registry.npmjs.org/minizlib/-/minizlib-2.1.2.tgz 0ms (cache hit)
+255 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.5.tgz 0ms (cache hit)
+256 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+257 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+258 http cache methods@https://registry.npmjs.org/methods/-/methods-1.1.2.tgz 0ms (cache hit)
+259 http cache merge-descriptors@https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.3.tgz 0ms (cache hit)
+260 http cache media-typer@https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 0ms (cache hit)
+261 http cache make-dir@https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz 0ms (cache hit)
+262 http cache lodash.once@https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz 0ms (cache hit)
+263 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+264 http cache lodash.isstring@https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz 0ms (cache hit)
+265 http cache lodash.isplainobject@https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz 0ms (cache hit)
+266 http cache lodash.isnumber@https://registry.npmjs.org/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz 0ms (cache hit)
+267 http cache lodash.isinteger@https://registry.npmjs.org/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz 0ms (cache hit)
+268 http cache lodash.isboolean@https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz 0ms (cache hit)
+269 http cache lodash.includes@https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz 0ms (cache hit)
+270 http cache negotiator@https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz 0ms (cache hit)
+271 http cache jws@https://registry.npmjs.org/jws/-/jws-4.0.1.tgz 0ms (cache hit)
+272 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+273 http cache jsonwebtoken@https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.3.tgz 0ms (cache hit)
+274 http cache jwa@https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz 0ms (cache hit)
+275 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+276 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+277 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+278 http cache is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 0ms (cache hit)
+279 http cache ipaddr.js@https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 0ms (cache hit)
+280 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+281 http cache ignore-by-default@https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz 0ms (cache hit)
+282 http cache inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 0ms (cache hit)
+283 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 0ms (cache hit)
+284 http cache http-errors@https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz 0ms (cache hit)
+285 http cache https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz 0ms (cache hit)
+286 http cache helmet@https://registry.npmjs.org/helmet/-/helmet-7.2.0.tgz 0ms (cache hit)
+287 http cache has-unicode@https://registry.npmjs.org/has-unicode/-/has-unicode-2.0.1.tgz 0ms (cache hit)
+288 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+289 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+290 http cache on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 0ms (cache hit)
+291 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+292 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+293 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+294 http cache glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 0ms (cache hit)
+295 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+296 http cache fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 0ms (cache hit)
+297 http cache gauge@https://registry.npmjs.org/gauge/-/gauge-3.0.2.tgz 0ms (cache hit)
+298 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+299 http cache fs-minipass@https://registry.npmjs.org/fs-minipass/-/fs-minipass-2.1.0.tgz 0ms (cache hit)
+300 http cache fresh@https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz 0ms (cache hit)
+301 http cache forwarded@https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz 0ms (cache hit)
+302 http cache finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-1.3.2.tgz 0ms (cache hit)
+303 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+304 http cache etag@https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 0ms (cache hit)
+305 http cache express-rate-limit@https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-6.11.2.tgz 0ms (cache hit)
+306 http cache escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 0ms (cache hit)
+307 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+308 http cache express@https://registry.npmjs.org/express/-/express-4.22.1.tgz 0ms (cache hit)
+309 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+310 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+311 http cache ecdsa-sig-formatter@https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz 0ms (cache hit)
+312 http cache ee-first@https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 0ms (cache hit)
+313 http cache encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz 0ms (cache hit)
+314 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+315 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+316 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+317 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz 0ms (cache hit)
+318 http cache destroy@https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz 0ms (cache hit)
+319 http cache depd@https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 0ms (cache hit)
+320 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 0ms (cache hit)
+321 http cache delegates@https://registry.npmjs.org/delegates/-/delegates-1.0.0.tgz 0ms (cache hit)
+322 http cache debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 0ms (cache hit)
+323 http cache cors@https://registry.npmjs.org/cors/-/cors-2.8.6.tgz 0ms (cache hit)
+324 http cache content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+325 http cache content-disposition@https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz 0ms (cache hit)
+326 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz 1ms (cache hit)
+327 http cache console-control-strings@https://registry.npmjs.org/console-control-strings/-/console-control-strings-1.1.0.tgz 0ms (cache hit)
+328 http cache buffer-equal-constant-time@https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz 0ms (cache hit)
+329 http cache cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.7.tgz 0ms (cache hit)
+330 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 0ms (cache hit)
+331 http cache call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+332 http cache chownr@https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz 0ms (cache hit)
+333 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+334 http cache bytes@https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz 0ms (cache hit)
+335 http cache accepts@https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz 0ms (cache hit)
+336 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+337 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.5.tgz 0ms (cache hit)
+338 http cache body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.20.4.tgz 0ms (cache hit)
+339 http cache bcrypt@https://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz 0ms (cache hit)
+340 http cache basic-auth@https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz 0ms (cache hit)
+341 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz 0ms (cache hit)
+342 http cache binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz 0ms (cache hit)
+343 http cache array-flatten@https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz 0ms (cache hit)
+344 http cache are-we-there-yet@https://registry.npmjs.org/are-we-there-yet/-/are-we-there-yet-2.0.0.tgz 0ms (cache hit)
+345 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 0ms (cache hit)
+346 http cache anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz 0ms (cache hit)
+347 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+348 http cache aproba@https://registry.npmjs.org/aproba/-/aproba-2.1.0.tgz 0ms (cache hit)
+349 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+350 http cache agent-base@https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz 0ms (cache hit)
+351 http cache on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 0ms (cache hit)
+352 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+353 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+354 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz 0ms (cache hit)
+355 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.13.tgz 0ms (cache hit)
+356 http cache abbrev@https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz 0ms (cache hit)
+357 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 0ms (cache hit)
+358 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+359 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+360 silly tarball no local data for @prisma/engines@https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz. Extracting by manifest.
+361 silly tarball no local data for @prisma/get-platform@https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz. Extracting by manifest.
+362 silly tarball no local data for @prisma/engines-version@https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz. Extracting by manifest.
+363 silly tarball no local data for @prisma/fetch-engine@https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz. Extracting by manifest.
+364 silly tarball no local data for @prisma/debug@https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz. Extracting by manifest.
+365 silly tarball no local data for @prisma/client@https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz. Extracting by manifest.
+366 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz. Extracting by manifest.
+367 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+368 silly tarball no local data for wide-align@https://registry.npmjs.org/wide-align/-/wide-align-1.1.5.tgz. Extracting by manifest.
+369 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz. Extracting by manifest.
+370 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz. Extracting by manifest.
+371 silly tarball no local data for vary@https://registry.npmjs.org/vary/-/vary-1.1.2.tgz. Extracting by manifest.
+372 silly tarball no local data for utils-merge@https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz. Extracting by manifest.
+373 silly tarball no local data for util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+374 silly tarball no local data for unpipe@https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz. Extracting by manifest.
+375 silly tarball no local data for type-is@https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz. Extracting by manifest.
+376 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+377 silly tarball no local data for toidentifier@https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz. Extracting by manifest.
+378 silly tarball no local data for undefsafe@https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz. Extracting by manifest.
+379 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+380 silly tarball no local data for tar@https://registry.npmjs.org/tar/-/tar-6.2.1.tgz. Extracting by manifest.
+381 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+382 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz. Extracting by manifest.
+383 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz. Extracting by manifest.
+384 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz. Extracting by manifest.
+385 silly tarball no local data for simple-update-notifier@https://registry.npmjs.org/simple-update-notifier/-/simple-update-notifier-2.0.0.tgz. Extracting by manifest.
+386 silly tarball no local data for side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz. Extracting by manifest.
+387 silly tarball no local data for side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz. Extracting by manifest.
+388 silly tarball no local data for side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz. Extracting by manifest.
+389 silly tarball no local data for side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz. Extracting by manifest.
+390 silly tarball no local data for setprototypeof@https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz. Extracting by manifest.
+391 silly tarball no local data for set-blocking@https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz. Extracting by manifest.
+392 silly tarball no local data for serve-static@https://registry.npmjs.org/serve-static/-/serve-static-1.16.3.tgz. Extracting by manifest.
+393 silly tarball no local data for send@https://registry.npmjs.org/send/-/send-0.19.2.tgz. Extracting by manifest.
+394 silly tarball no local data for safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+395 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+396 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz. Extracting by manifest.
+397 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+398 silly tarball no local data for raw-body@https://registry.npmjs.org/raw-body/-/raw-body-2.5.3.tgz. Extracting by manifest.
+399 silly tarball no local data for statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz. Extracting by manifest.
+400 silly tarball no local data for range-parser@https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz. Extracting by manifest.
+401 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.14.2.tgz. Extracting by manifest.
+402 silly tarball no local data for pstree.remy@https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz. Extracting by manifest.
+403 silly tarball no local data for proxy-addr@https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz. Extracting by manifest.
+404 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.2.tgz. Extracting by manifest.
+405 silly tarball no local data for path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.13.tgz. Extracting by manifest.
+406 silly tarball no local data for parseurl@https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz. Extracting by manifest.
+407 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+408 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+409 silly tarball no local data for on-headers@https://registry.npmjs.org/on-headers/-/on-headers-1.1.0.tgz. Extracting by manifest.
+410 silly tarball no local data for signal-exit@https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz. Extracting by manifest.
+411 silly tarball no local data for object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz. Extracting by manifest.
+412 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+413 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz. Extracting by manifest.
+414 silly tarball no local data for npmlog@https://registry.npmjs.org/npmlog/-/npmlog-5.0.1.tgz. Extracting by manifest.
+415 silly tarball no local data for normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz. Extracting by manifest.
+416 silly tarball no local data for node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.1.0.tgz. Extracting by manifest.
+417 silly tarball no local data for morgan@https://registry.npmjs.org/morgan/-/morgan-1.10.1.tgz. Extracting by manifest.
+418 silly tarball no local data for minizlib@https://registry.npmjs.org/minizlib/-/minizlib-2.1.2.tgz. Extracting by manifest.
+419 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-10.2.5.tgz. Extracting by manifest.
+420 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+421 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+422 silly tarball no local data for methods@https://registry.npmjs.org/methods/-/methods-1.1.2.tgz. Extracting by manifest.
+423 silly tarball no local data for merge-descriptors@https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.3.tgz. Extracting by manifest.
+424 silly tarball no local data for media-typer@https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz. Extracting by manifest.
+425 silly tarball no local data for make-dir@https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz. Extracting by manifest.
+426 silly tarball no local data for lodash.once@https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz. Extracting by manifest.
+427 silly tarball no local data for math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+428 silly tarball no local data for lodash.isstring@https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz. Extracting by manifest.
+429 silly tarball no local data for lodash.isplainobject@https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz. Extracting by manifest.
+430 silly tarball no local data for lodash.isnumber@https://registry.npmjs.org/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz. Extracting by manifest.
+431 silly tarball no local data for lodash.isinteger@https://registry.npmjs.org/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz. Extracting by manifest.
+432 silly tarball no local data for lodash.isboolean@https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz. Extracting by manifest.
+433 silly tarball no local data for lodash.includes@https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz. Extracting by manifest.
+434 silly tarball no local data for negotiator@https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz. Extracting by manifest.
+435 silly tarball no local data for jws@https://registry.npmjs.org/jws/-/jws-4.0.1.tgz. Extracting by manifest.
+436 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+437 silly tarball no local data for jsonwebtoken@https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.3.tgz. Extracting by manifest.
+438 silly tarball no local data for jwa@https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz. Extracting by manifest.
+439 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+440 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+441 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz. Extracting by manifest.
+442 silly tarball no local data for is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz. Extracting by manifest.
+443 silly tarball no local data for ipaddr.js@https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz. Extracting by manifest.
+444 silly tarball no local data for inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+445 silly tarball no local data for ignore-by-default@https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz. Extracting by manifest.
+446 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+447 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz. Extracting by manifest.
+448 silly tarball no local data for http-errors@https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz. Extracting by manifest.
+449 silly tarball no local data for https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz. Extracting by manifest.
+450 silly tarball no local data for helmet@https://registry.npmjs.org/helmet/-/helmet-7.2.0.tgz. Extracting by manifest.
+451 silly tarball no local data for has-unicode@https://registry.npmjs.org/has-unicode/-/has-unicode-2.0.1.tgz. Extracting by manifest.
+452 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+453 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+454 silly tarball no local data for on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz. Extracting by manifest.
+455 silly tarball no local data for gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+456 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+457 silly tarball no local data for get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz. Extracting by manifest.
+458 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz. Extracting by manifest.
+459 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz. Extracting by manifest.
+460 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+461 silly tarball no local data for gauge@https://registry.npmjs.org/gauge/-/gauge-3.0.2.tgz. Extracting by manifest.
+462 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+463 silly tarball no local data for fs-minipass@https://registry.npmjs.org/fs-minipass/-/fs-minipass-2.1.0.tgz. Extracting by manifest.
+464 silly tarball no local data for fresh@https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz. Extracting by manifest.
+465 silly tarball no local data for forwarded@https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz. Extracting by manifest.
+466 silly tarball no local data for finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-1.3.2.tgz. Extracting by manifest.
+467 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+468 silly tarball no local data for etag@https://registry.npmjs.org/etag/-/etag-1.8.1.tgz. Extracting by manifest.
+469 silly tarball no local data for express-rate-limit@https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-6.11.2.tgz. Extracting by manifest.
+470 silly tarball no local data for escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz. Extracting by manifest.
+471 silly tarball no local data for es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz. Extracting by manifest.
+472 silly tarball no local data for express@https://registry.npmjs.org/express/-/express-4.22.1.tgz. Extracting by manifest.
+473 silly tarball no local data for es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+474 silly tarball no local data for es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+475 silly tarball no local data for ecdsa-sig-formatter@https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz. Extracting by manifest.
+476 silly tarball no local data for ee-first@https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz. Extracting by manifest.
+477 silly tarball no local data for encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz. Extracting by manifest.
+478 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz. Extracting by manifest.
+479 silly tarball no local data for dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+480 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+481 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz. Extracting by manifest.
+482 silly tarball no local data for destroy@https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz. Extracting by manifest.
+483 silly tarball no local data for depd@https://registry.npmjs.org/depd/-/depd-2.0.0.tgz. Extracting by manifest.
+484 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+485 silly tarball no local data for delegates@https://registry.npmjs.org/delegates/-/delegates-1.0.0.tgz. Extracting by manifest.
+486 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+487 silly tarball no local data for cors@https://registry.npmjs.org/cors/-/cors-2.8.6.tgz. Extracting by manifest.
+488 silly tarball no local data for content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz. Extracting by manifest.
+489 silly tarball no local data for content-disposition@https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz. Extracting by manifest.
+490 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz. Extracting by manifest.
+491 silly tarball no local data for console-control-strings@https://registry.npmjs.org/console-control-strings/-/console-control-strings-1.1.0.tgz. Extracting by manifest.
+492 silly tarball no local data for buffer-equal-constant-time@https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz. Extracting by manifest.
+493 silly tarball no local data for cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.7.tgz. Extracting by manifest.
+494 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+495 silly tarball no local data for call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz. Extracting by manifest.
+496 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz. Extracting by manifest.
+497 silly tarball no local data for call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz. Extracting by manifest.
+498 silly tarball no local data for bytes@https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz. Extracting by manifest.
+499 silly tarball no local data for accepts@https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz. Extracting by manifest.
+500 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+501 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.5.tgz. Extracting by manifest.
+502 silly tarball no local data for body-parser@https://registry.npmjs.org/body-parser/-/body-parser-1.20.4.tgz. Extracting by manifest.
+503 silly tarball no local data for bcrypt@https://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz. Extracting by manifest.
+504 silly tarball no local data for basic-auth@https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz. Extracting by manifest.
+505 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz. Extracting by manifest.
+506 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz. Extracting by manifest.
+507 silly tarball no local data for array-flatten@https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz. Extracting by manifest.
+508 silly tarball no local data for are-we-there-yet@https://registry.npmjs.org/are-we-there-yet/-/are-we-there-yet-2.0.0.tgz. Extracting by manifest.
+509 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+510 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz. Extracting by manifest.
+511 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz. Extracting by manifest.
+512 silly tarball no local data for aproba@https://registry.npmjs.org/aproba/-/aproba-2.1.0.tgz. Extracting by manifest.
+513 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+514 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz. Extracting by manifest.
+515 silly tarball no local data for on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz. Extracting by manifest.
+516 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+517 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz. Extracting by manifest.
+518 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.13.tgz. Extracting by manifest.
+519 silly tarball no local data for abbrev@https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz. Extracting by manifest.
+520 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+521 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+522 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: read ECONNRESET
+522 verbose audit error     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+522 verbose audit error     at ClientRequest.emit (node:events:508:28)
+522 verbose audit error     at emitErrorEvent (node:_http_client:108:11)
+522 verbose audit error     at _destroy (node:_http_client:962:9)
+522 verbose audit error     at onSocketNT (node:_http_client:982:5)
+522 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+522 verbose audit error   code: 'ECONNRESET',
+522 verbose audit error   errno: 'ECONNRESET',
+522 verbose audit error   syscall: 'read',
+522 verbose audit error   type: 'system'
+522 verbose audit error }
+523 silly audit error undefined
+524 silly audit report null
+525 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz. Extracting by manifest.
+526 http fetch GET https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz attempt 1 failed with ECONNRESET
+527 http fetch GET https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz attempt 1 failed with ECONNRESET
+528 http fetch GET https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz attempt 1 failed with ECONNRESET
+529 http fetch GET https://registry.npmjs.org/wide-align/-/wide-align-1.1.5.tgz attempt 1 failed with ECONNRESET
+530 http fetch GET https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz attempt 1 failed with ECONNRESET
+531 http fetch GET https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz attempt 1 failed with ECONNRESET
+532 http fetch GET https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz attempt 1 failed with ECONNRESET
+533 http fetch GET https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz attempt 1 failed with ECONNRESET
+534 http fetch GET https://registry.npmjs.org/vary/-/vary-1.1.2.tgz attempt 1 failed with ECONNRESET
+535 http fetch GET https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz attempt 1 failed with ECONNRESET
+536 http fetch GET https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz attempt 1 failed with ECONNRESET
+537 http fetch GET https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz attempt 1 failed with ECONNRESET
+538 http fetch GET https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz attempt 1 failed with ECONNRESET
+539 http fetch GET https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz attempt 1 failed with ECONNRESET
+540 http fetch GET https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz attempt 1 failed with ECONNRESET
+541 warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+542 http fetch GET https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz attempt 2 failed with ECONNRESET
+543 http fetch GET https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz attempt 2 failed with ECONNRESET
+544 http fetch GET https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz attempt 2 failed with ECONNRESET
+545 http fetch GET https://registry.npmjs.org/wide-align/-/wide-align-1.1.5.tgz attempt 2 failed with ECONNRESET
+546 http fetch GET https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz attempt 2 failed with ECONNRESET
+547 http fetch GET https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz attempt 2 failed with ECONNRESET
+548 http fetch GET https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz attempt 2 failed with ECONNRESET
+549 http fetch GET https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz attempt 2 failed with ECONNRESET
+550 http fetch GET https://registry.npmjs.org/vary/-/vary-1.1.2.tgz attempt 2 failed with ECONNRESET
+551 http fetch GET https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz attempt 2 failed with ECONNRESET
+552 http fetch GET https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz attempt 2 failed with ECONNRESET
+553 http fetch GET https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz attempt 2 failed with ECONNRESET
+554 http fetch GET https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz attempt 2 failed with ECONNRESET
+555 http fetch GET https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz attempt 2 failed with ECONNRESET
+556 http fetch GET https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz attempt 2 failed with ECONNRESET
+557 http fetch GET https://registry.npmjs.org/@prisma/engines/-/engines-5.22.0.tgz attempt 3 failed with ECONNRESET
+558 http fetch GET https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz attempt 3 failed with ECONNRESET
+559 http fetch GET https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz attempt 3 failed with ECONNRESET
+560 http fetch GET https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.22.0.tgz attempt 3 failed with ECONNRESET
+561 http fetch GET https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.22.0-44.605197351a3c8bdd595af2d2a9bc3025bca48ea2.tgz attempt 3 failed with ECONNRESET
+562 http fetch GET https://registry.npmjs.org/@prisma/debug/-/debug-5.22.0.tgz attempt 3 failed with ECONNRESET
+563 http fetch GET https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.22.0.tgz attempt 3 failed with ECONNRESET
+564 http fetch GET https://registry.npmjs.org/wide-align/-/wide-align-1.1.5.tgz attempt 3 failed with ECONNRESET
+565 http fetch GET https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz attempt 3 failed with ECONNRESET
+566 http fetch GET https://registry.npmjs.org/@prisma/client/-/client-5.22.0.tgz attempt 3 failed with ECONNRESET
+567 http fetch GET https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz attempt 3 failed with ECONNRESET
+568 http fetch GET https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz attempt 3 failed with ECONNRESET
+569 http fetch GET https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz attempt 3 failed with ECONNRESET
+570 http fetch GET https://registry.npmjs.org/vary/-/vary-1.1.2.tgz attempt 3 failed with ECONNRESET
+571 http fetch GET https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz attempt 3 failed with ECONNRESET
+572 verbose cwd C:\Users\ferna\refrigeracion-don-carlos-erp\backend
+573 verbose os Windows_NT 10.0.19045
+574 verbose node v24.13.0
+575 verbose npm  v11.6.2
+576 error Exit handler never called!
+577 error This is an error with npm itself. Please report this error at:
+578 error   <https://github.com/npm/cli/issues>
+579 verbose exit 1
+580 verbose code 1
+581 error A complete log of this run can be found in: C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-11T11_53_48_912Z-debug-0.log

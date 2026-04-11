@@ -1,0 +1,119 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ferna\refrigeracion-don-carlos-erp\backend\.npmrc
+5 silly config load:file:C:\Users\ferna\.npmrc
+6 silly config load:file:C:\Users\ferna\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-11T11_59_04_338Z-
+10 verbose logfile C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-11T11_59_04_338Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @prisma/client@5.22.0
+16 silly packumentCache full:https://registry.npmjs.org/@prisma%2fclient cache-miss
+17 http fetch GET https://registry.npmjs.org/@prisma%2fclient attempt 1 failed with ECONNRESET
+18 http fetch GET https://registry.npmjs.org/@prisma%2fclient attempt 2 failed with ECONNRESET
+19 http fetch GET https://registry.npmjs.org/@prisma%2fclient attempt 3 failed with ECONNRESET
+20 silly fetch manifest bcrypt@5.1.1
+21 silly packumentCache full:https://registry.npmjs.org/bcrypt cache-miss
+22 http fetch GET https://registry.npmjs.org/bcrypt attempt 1 failed with ECONNRESET
+23 http fetch GET https://registry.npmjs.org/bcrypt attempt 2 failed with ECONNRESET
+24 http fetch GET https://registry.npmjs.org/bcrypt attempt 3 failed with ECONNRESET
+25 silly fetch manifest bcryptjs@3.0.3
+26 silly packumentCache full:https://registry.npmjs.org/bcryptjs cache-miss
+27 http fetch GET https://registry.npmjs.org/bcryptjs attempt 1 failed with ECONNRESET
+28 http fetch GET https://registry.npmjs.org/bcryptjs attempt 2 failed with ECONNRESET
+29 http fetch GET https://registry.npmjs.org/bcryptjs attempt 3 failed with ECONNRESET
+30 silly fetch manifest cors@2.8.6
+31 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+32 http fetch GET https://registry.npmjs.org/cors attempt 1 failed with ECONNRESET
+33 http fetch GET https://registry.npmjs.org/cors attempt 2 failed with ECONNRESET
+34 http fetch GET https://registry.npmjs.org/cors attempt 3 failed with ECONNRESET
+35 silly fetch manifest dotenv@16.6.1
+36 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+37 http fetch GET https://registry.npmjs.org/dotenv attempt 1 failed with ECONNRESET
+38 http fetch GET https://registry.npmjs.org/dotenv attempt 2 failed with ECONNRESET
+39 http fetch GET https://registry.npmjs.org/dotenv attempt 3 failed with ECONNRESET
+40 silly fetch manifest express@4.22.1
+41 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+42 http fetch GET https://registry.npmjs.org/express attempt 1 failed with ECONNRESET
+43 http fetch GET https://registry.npmjs.org/express attempt 2 failed with ECONNRESET
+44 http fetch GET https://registry.npmjs.org/express attempt 3 failed with ECONNRESET
+45 silly fetch manifest express-rate-limit@6.11.2
+46 silly packumentCache full:https://registry.npmjs.org/express-rate-limit cache-miss
+47 http fetch GET https://registry.npmjs.org/express-rate-limit attempt 1 failed with ECONNRESET
+48 http fetch GET https://registry.npmjs.org/express-rate-limit attempt 2 failed with ECONNRESET
+49 http fetch GET https://registry.npmjs.org/express-rate-limit attempt 3 failed with ECONNRESET
+50 silly fetch manifest helmet@7.2.0
+51 silly packumentCache full:https://registry.npmjs.org/helmet cache-miss
+52 http fetch GET https://registry.npmjs.org/helmet attempt 1 failed with ECONNRESET
+53 http fetch GET https://registry.npmjs.org/helmet attempt 2 failed with ECONNRESET
+54 http fetch GET https://registry.npmjs.org/helmet attempt 3 failed with ECONNRESET
+55 silly fetch manifest jsonwebtoken@9.0.3
+56 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken cache-miss
+57 http fetch GET https://registry.npmjs.org/jsonwebtoken attempt 1 failed with ECONNRESET
+58 http fetch GET https://registry.npmjs.org/jsonwebtoken attempt 2 failed with ECONNRESET
+59 http fetch GET https://registry.npmjs.org/jsonwebtoken attempt 3 failed with ECONNRESET
+60 silly fetch manifest morgan@1.10.1
+61 silly packumentCache full:https://registry.npmjs.org/morgan cache-miss
+62 http fetch GET https://registry.npmjs.org/morgan attempt 1 failed with ECONNRESET
+63 http fetch GET https://registry.npmjs.org/morgan attempt 2 failed with ECONNRESET
+64 http fetch GET https://registry.npmjs.org/morgan attempt 3 failed with ECONNRESET
+65 silly fetch manifest prisma@5.22.0
+66 silly packumentCache full:https://registry.npmjs.org/prisma cache-miss
+67 http fetch GET https://registry.npmjs.org/prisma attempt 1 failed with ECONNRESET
+68 http fetch GET https://registry.npmjs.org/prisma attempt 2 failed with ECONNRESET
+69 http fetch GET https://registry.npmjs.org/prisma attempt 3 failed with ECONNRESET
+70 silly fetch manifest uuid@13.0.0
+71 silly packumentCache full:https://registry.npmjs.org/uuid cache-miss
+72 http fetch GET https://registry.npmjs.org/uuid attempt 1 failed with ECONNRESET
+73 http fetch GET https://registry.npmjs.org/uuid attempt 2 failed with ECONNRESET
+74 http fetch GET https://registry.npmjs.org/uuid attempt 3 failed with ECONNRESET
+75 silly fetch manifest nodemon@3.1.14
+76 silly packumentCache full:https://registry.npmjs.org/nodemon cache-miss
+77 http fetch GET https://registry.npmjs.org/nodemon attempt 1 failed with ECONNRESET
+78 http fetch GET https://registry.npmjs.org/nodemon attempt 2 failed with ECONNRESET
+79 http fetch GET https://registry.npmjs.org/nodemon attempt 3 failed with ECONNRESET
+80 silly placeDep ROOT @prisma/client@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^5.4.2
+81 silly placeDep ROOT bcrypt@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^5.1.1
+82 silly placeDep ROOT bcryptjs@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^3.0.3
+83 silly placeDep ROOT cors@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^2.8.5
+84 silly placeDep ROOT dotenv@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^16.3.1
+85 silly placeDep ROOT express@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^4.18.2
+86 silly placeDep ROOT express-rate-limit@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^6.10.0
+87 silly placeDep ROOT helmet@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^7.1.0
+88 silly placeDep ROOT jsonwebtoken@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^9.0.3
+89 silly placeDep ROOT morgan@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^1.10.0
+90 silly placeDep ROOT nodemon@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^3.0.1
+91 silly placeDep ROOT prisma@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^5.4.2
+92 silly placeDep ROOT uuid@ OK for: refrigeracion-don-carlos-erp-backend@1.0.0 want: ^13.0.0
+93 verbose type system
+94 verbose stack FetchError: request to https://registry.npmjs.org/@prisma%2fclient failed, reason: read ECONNRESET
+94 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+94 verbose stack     at ClientRequest.emit (node:events:508:28)
+94 verbose stack     at emitErrorEvent (node:_http_client:108:11)
+94 verbose stack     at _destroy (node:_http_client:962:9)
+94 verbose stack     at onSocketNT (node:_http_client:982:5)
+94 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+95 error code ECONNRESET
+96 error syscall read
+97 error errno ECONNRESET
+98 error network request to https://registry.npmjs.org/@prisma%2fclient failed, reason: read ECONNRESET
+99 error network This is a problem related to network connectivity.
+99 error network In most cases you are behind a proxy or have bad network settings.
+99 error network
+99 error network If you are behind a proxy, please make sure that the
+99 error network 'proxy' config is set properly.  See: 'npm help config'
+100 silly unfinished npm timer reify 1775908745185
+101 silly unfinished npm timer reify:loadTrees 1775908745186
+102 verbose cwd C:\Users\ferna\refrigeracion-don-carlos-erp\backend
+103 verbose os Windows_NT 10.0.19045
+104 verbose node v24.13.0
+105 verbose npm  v11.6.2
+106 verbose exit 1
+107 verbose code 1
+108 error A complete log of this run can be found in: C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-11T11_59_04_338Z-debug-0.log
