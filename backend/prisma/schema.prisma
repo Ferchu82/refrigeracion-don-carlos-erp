@@ -11,46 +11,119 @@ model User {
   id        String   @id @default(cuid())
   email     String   @unique
   password  String
+  name      String
   role      Role     @default(TECNICO)
   createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
 
-  orders Order[]
-
-  assignedOrders Order[]       @relation("AssignedOrders")
+  clients   Client[]
+  jobs      Job[]
+  quotes    Quote[]
+  invoices  Invoice[]
 
   @@map("users")
 }
 
-model Order {
+model Client {
+  id        String   @id @default(cuid())
+  name      String
+  email     String?
+  phone     String?
+  cuit      String?
+  address   String?
+  createdAt DateTime @default(now())
+
+  jobs      Job[]
+  quotes    Quote[]
+  invoices  Invoice[]
+
+  @@map("clients")
+}
+
+model Job {
   id          String   @id @default(cuid())
   title       String
   description String?
-  priority    Priority @default(NORMAL)
-  status      Status   @default(PENDIENTE)
-  assignedTo  User?    @relation("AssignedOrders", fields: [assignedToId], references: [id])
-  assignedToId String?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  userId      String
-  user        User     @relation(fields: [userId], references: [id])
+  date        DateTime @default(now())
+  status      JobStatus @default(PENDING)
 
-  @@map("orders")
+  clientId    String
+  client      Client   @relation(fields: [clientId], references: [id])
+
+  @@map("jobs")
+}
+
+model Quote {
+  id      String   @id @default(cuid())
+  number  String   @unique
+  date    DateTime @default(now())
+  status  QuoteStatus @default(DRAFT)
+  total   Float    @default(0)
+
+  clientId String
+  client   Client  @relation(fields: [clientId], references: [id])
+
+  items    QuoteItem[]
+
+  @@map("quotes")
+}
+
+model Invoice {
+  id      String   @id @default(cuid())
+  number  String   @unique
+  date    DateTime @default(now())
+  total   Float
+  paid    Boolean  @default(false)
+
+  clientId String
+  client   Client  @relation(fields: [clientId], references: [id])
+
+  items    InvoiceItem[]
+
+  @@map("invoices")
+}
+
+model QuoteItem {
+  id          String @id @default(cuid())
+  description String
+  quantity    Float  @default(1)
+  price       Float
+  subtotal    Float
+
+  quoteId     String
+  quote       Quote  @relation(fields: [quoteId], references: [id], onDelete: Cascade)
+
+  @@map("quote_items")
+}
+
+model InvoiceItem {
+  id          String @id @default(cuid())
+  description String
+  quantity    Float  @default(1)
+  price       Float
+  subtotal    Float
+
+  invoiceId   String
+  invoice     Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+  @@map("invoice_items")
 }
 
 enum Role {
   TECNICO
-  ADMIN  
+  ADMIN
   SUPERVISOR
 }
 
-enum Priority {
-  NORMAL
-  URGENTE
+enum JobStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
 }
 
-enum Status {
-  PENDIENTE
-  EN_PROCESO
-  TERMINADA
+enum QuoteStatus {
+  DRAFT
+  SENT
+  APPROVED
+  REJECTED
 }
