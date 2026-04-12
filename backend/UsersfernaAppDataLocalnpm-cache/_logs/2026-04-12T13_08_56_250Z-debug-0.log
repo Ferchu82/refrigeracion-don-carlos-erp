@@ -5,10 +5,10 @@
 4 silly config load:file:C:\Users\ferna\refrigeracion-don-carlos-erp\backend\.npmrc
 5 silly config load:file:C:\Users\ferna\.npmrc
 6 silly config load:file:C:\Users\ferna\AppData\Roaming\npm\etc\npmrc
-7 verbose title npm exec prisma studio
-8 verbose argv "exec" "--" "prisma" "studio"
-9 verbose logfile logs-max:10 dir:C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-12T12_21_38_497Z-
-10 verbose logfile C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-12T12_21_38_497Z-debug-0.log
+7 verbose title npm exec prisma db push
+8 verbose argv "exec" "--" "prisma" "db" "push"
+9 verbose logfile logs-max:10 dir:C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-12T13_08_56_250Z-
+10 verbose logfile C:\Users\ferna\refrigeracion-don-carlos-erp\backend\UsersfernaAppDataLocalnpm-cache\_logs\2026-04-12T13_08_56_250Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
 13 verbose cwd C:\Users\ferna\refrigeracion-don-carlos-erp\backend
